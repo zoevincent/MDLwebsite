@@ -1,0 +1,391 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+
+
+<head>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>DiLandaViolins</title>
+<style type="text/css">
+body table tr td center table tr th p {
+	font-family: Lucida Calligraphy;
+}
+
+
+<style type="text/css"> 
+
+.gallerycontainer{
+position: relative;
+/*Add a height attribute and set to largest image's height to prevent overlaying*/
+}
+
+.thumbnail img{
+	border: 1px solid white;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: 0;
+}
+
+.thumbnail:hover{
+background-color: transparent;
+}
+
+.thumbnail:hover img{
+border: 1px solid blue;
+}
+
+.thumbnail span{ /*CSS for enlarged image*/
+position: absolute;
+background-color: black;
+padding: 5px;
+left: -1000px;
+border: 1px dashed gray;
+visibility: hidden;
+color: black;
+text-decoration: none;
+}
+
+.thumbnail span img{ /*CSS for enlarged image*/
+border-width: 0;
+padding: 2px;
+}
+
+.thumbnail:hover span{ /*CSS for enlarged image*/
+visibility: visible;
+top: 22%;
+left: 16%; /*position where enlarged image should offset horizontally */
+z-index: 50;
+}
+
+</style>
+
+
+
+
+</head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Di Landa ViolinMaker</title>
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="Style.css" rel="stylesheet" type="text/css">
+<!-- 
+Per saperne di più sui commenti condizionali intorno ai tag html all'inizio del file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Fate quanto segue se utilizzate una build personalizzata di modernizr (http://www.modernizr.com/):
+* inserite qui il collegamento al vostro codice js
+* rimuovete il collegamento sotto a html5shiv
+* aggiungete la classe "no-js" ai tag html in alto
+* potete anche rimuovere il collegamento a respond.min.js se avete incluso Polyfill MQ nella vostra build modernizr 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="respond.min.js"></script>
+
+
+
+
+
+
+
+
+<style type="text/css">
+
+.gallerycontainer{
+position: relative;
+/*Add a height attribute and set to largest image's height to prevent overlaying*/
+}
+
+.thumbnail img{
+border: 1px solid white;
+margin: 0 0px 0px 0;
+}
+
+.thumbnail:hover{
+background-color: transparent;
+}
+
+.thumbnail:hover img{
+border: 1px solid blue;
+}
+
+.thumbnail span{ /*CSS for enlarged image*/
+position: absolute;
+background-color: black;
+padding: 5px;
+left: -1000px;
+border: 1px dashed gray;
+visibility: hidden;
+color: black;
+text-decoration: none;
+}
+
+.thumbnail span img{ /*CSS for enlarged image*/
+border-width: 0;
+padding: 2px;
+}
+
+.thumbnail:hover span{ /*CSS for enlarged image*/
+visibility: visible;
+top: 15%;
+left: 10%; /*Posizione finestra grande*/
+z-index: 50;
+}
+
+</style>
+
+
+
+
+
+
+
+<style type="text/css">
+body,td,th {
+	color: #FFF;
+	font-family: "Lucida Calligraphy";
+	font-size: 100%;
+}
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	background-image: url(../IMG/wood_black.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#sfondo {position:fixed; top:0; left:0; width:100%; height:100%; z-index:-1;}
+
+body,td,th {
+	color: #FFF;
+	font-family: "Lucida Calligraphy";
+}
+</style>
+
+
+
+   <meta charset="utf-8" />
+<title>Menu a tendina</title>
+
+    <style type="text/css">
+		body {
+			background-color: url(../IMG/wood_black2.jpg);
+			font-family: Lucida Calligraphy;
+			
+	text-shadow: 0px 0px 1px #FFF;
+
+	box-shadow: 0px 20px 30px #7C7C7C;
+}
+
+		#menu {
+	width: 110%;
+	margin: 5% auto; /*Altezza menù*/
+	box-shadow: 0px 20px 30px #7C7C7C;
+	text-shadow: 0px 0px 1px #FFF;
+		}
+
+		#menu ul {
+			padding: 0;
+			margin: 0;
+			box-shadow: 0px 20px 30px #7C7C7C;
+					}
+
+		#menu li {
+	position: relative;
+	float: left;
+	width: 120px;/*Dimensione tendina*/
+	text-align: center;
+	list-style: none;
+	text-shadow: 0px 0px 1px #FFF;
+		}
+
+		#menu li a {
+	color: #FFF;
+	padding: 15px 20px;
+	text-decoration: none;
+	display: block;
+		}
+
+		#menu li a:hover {
+	text-shadow: 0px 0px 1px #FFF;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-image: url(../IMG/wood_black2.jpg);
+		}
+
+		#menu ul ul {
+			position: absolute;
+			top: 20%;
+			visibility: hidden;
+		}
+
+		#menu ul li:hover ul {
+	visibility: visible;
+	background-image: url(../IMG/wood_black2.jpg);
+		}
+
+		#menu ul ul:hover {
+			box-shadow: 0px 20px 30px #7C7C7C;
+		}
+
+		#menu ul ul li a {
+			background-color: url(Bg-2.gif);
+		}
+
+		#menu ul ul li a:hover {
+			background-color: url(Bg-2.gif);
+		}
+
+    body table tr td center table tr th p {
+	font-family: Lucida Calligraphy;
+}
+    </style>
+
+
+
+
+<body>
+
+
+
+
+  <div id="Testata">
+  <div>
+    <table  widht="98%" border="0" >
+      <tr>
+        <th  cope="col"><img src="../IMG/MDL-logo.gif" width="33%" height="33%" class="imagefloat" title="MDL" alt="Logo">&nbsp;&nbsp;&nbsp;</th>
+        <th scope="col"> <div class="gridContainer clearfix" id="menu" >
+      <!-- Lista generale -->
+      <ul>
+        <!-- 1° Elemento	-->
+        <li>
+          <a href="../index.html">Home</a></li>
+        
+        <!-- 2° Elemento -->
+        
+        <li>            <a href="Biography_uk.html">Biography</a>          </li>
+        
+        <!-- 3° Elemento: (Sottomenu) -->
+        <li>
+          <a href="#">Instruments</a>
+          <ul>
+          <li><a href="#"></a></li>
+            <li><a href="violin_uk.html">Violin</a></li>
+            <li><a href="viola_uk.html">Viola</a></li>
+            <li><a href="cello_uk.html">Cello</a></li>
+            <li><a href="baroque_uk.html">Baroque</a></li>
+            
+            </ul>
+          </li>
+        <li><a href="contact_uk.html">Contact</a></li>
+        </ul>
+        </div></th>
+        
+    </table>
+    <div align="right"> <a href="../IT/index_it.html" title="IT">
+     <img src="../IMG/italia_bw.gif"  alt="IT"
+     onmouseover="this.src='../IMG/italia.gif'" 
+     onmouseout="this.src='../IMG/italia_bw.gif'"></a>&nbsp;&nbsp;&nbsp;
+      <a href="../index.html" title="UK">
+      <img src="../IMG/uk.gif"alt="UK"
+      onmouseover="this.src='../IMG/uk_bw.gif'" 
+      onmouseout="this.src='../IMG/uk.gif'"></a>&nbsp;&nbsp;&nbsp;
+      <a href="../FR/index_fr.html" title="FR">
+      <img src="../IMG/francia_bw.gif" alt="FR"
+      onmouseover="this.src='../IMG/francia.gif'" 
+      onmouseout="this.src='../IMG/francia_bw.gif'"></a> &nbsp;&nbsp;&nbsp; 
+  </div>
+    
+   
+    
+</div>
+
+<div id="Img"><img src="../IMG/Corners-with-circles333.gif" alt="Img" width="100%" height="100%"class="imagefloat">
+
+<p>&nbsp;</p> 
+           <p>&nbsp;</p> 
+            <p>&nbsp;</p> 
+             <p>&nbsp;</p> 
+              <p>&nbsp;</p> 
+               <p>&nbsp;</p> 
+                <p>&nbsp;</p> 
+                 <p>&nbsp;</p> 
+                  <p>&nbsp;</p> 
+                   
+
+
+</div>
+
+
+
+<div class="gallerycontainer">
+
+<div id="Contenut">
+<ul>
+      <center>
+<table border="0" align="left">
+<tr>
+            <th>      
+              <p><a class="thumbnail">
+              <img src="../IMG/Cello GGBG/Cello-GGBG_Back_Small_bw.gif"
+              onmouseover="this.src='../IMG/Cello GGBG/Cello-GGBG_Back.gif'" width="100%" height="100%" class="imagefloat"
+              onmouseout="this.src='../IMG/Cello GGBG/Cello-GGBG_Back_Small_bw.gif'"/>
+                  <br>
+                  	</a>  
+              <p>&nbsp;</p>      		
+    </th>
+            <th>
+              <p><a class="thumbnail">
+              <img src="../IMG/Cello GGBG/Cello-GGBG_Front_Small_bw.gif"
+              onmouseover="this.src='../IMG/Cello GGBG/Cello-GGBG_Front.gif'" width="100%" height="100%" class="imagefloat"
+                 onmouseout="this.src='../IMG/Cello GGBG/Cello-GGBG_Front_Small_bw.gif'"/>   
+                 <br/> 
+                 	</a>
+                  <br/>Cello GGBGuarneri 1692.
+    </th>
+            
+             <th>
+                <p><a class="thumbnail">
+                <img src="../IMG/Cello GGBG/Cello-GGBG_Scroll_Small_bw.gif" 
+                onmouseover="this.src='../IMG/Cello GGBG/Cello-GGBG_Scroll.gif'" width="100%" height="100%" class="imagefloat"
+                onmouseout="this.src='../IMG/Cello GGBG/Cello-GGBG_Scroll_Small_bw.gif'"/>   
+                <br/>
+               		</a>
+                    </p>
+  <p>&nbsp;</p>
+  
+  </th>
+   
+   </tr>
+  
+  
+   
+  </table>
+  
+  </div>
+<div id="Sotto">
+  <div align="left">
+  
+  <img src="http://counter7.fcs.ovh/private/contatoreaccessi.php?c=9942a38261cbfedfd3f4092f1eb679c6">
+  
+  </div>
+  
+  
+</div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+html, body{
+    overflow: auto;
+}
+
+.bg{
+    width: 100%;
+    height: auto;
+    background-repeat: repeat;
+}
+
+main{
+    justify-content: space-between;
+}
+
+.main_img{
+    width:30%;
+}
+
+.instru{
+    width:50%;
+    margin: 2em;
+}
+
+.card{
+    margin: 0 auto;
+}
+
+.instru img{
+    width:32%;
+    height:32%;
+    filter: grayscale(1);
+}
+
+.instru img:hover{
+    filter: grayscale(0);
+    transform: scale(1.2, 1.2);
+}
+
+.instru_name{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/** 
+** Responsive
+**/
+
+@media screen and (max-width: 1024px){
+    .main_img{
+        display: none;
+    }
+    .instru{
+        width: 70%;
+        margin: 0 auto;
+    }
+  }
+
+  @media screen and (max-width: 500px){
+    .instru_name{
+        font-size: 0.8em;
+    }
+    .instru{
+        margin-top: 5%;
+    }
+}

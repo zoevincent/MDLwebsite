@@ -1,0 +1,18 @@
+/** 
+** Responsive
+**/
+
+@media screen and (max-width: 1024px){
+    .main_img{
+        display: none;
+    }
+    .bio{
+        margin: 0 auto;
+        height: 100%;
+        width: auto;
+    }
+    .bio img{
+        height: 100%;
+        width: 100%;
+    }
+  }

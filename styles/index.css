@@ -1,0 +1,48 @@
+/* Flags */
+
+.flags img:hover{
+	filter: grayscale(1);
+}
+
+/** 
+** Main
+**/
+
+main{
+	align-items: center;
+}
+
+/* Title */
+
+.home_title{
+	margin: 0 auto;
+}
+
+@font-face {
+	font-family: "Birds";
+	src: url("../fonts/birdsofparadise.ttf");
+  }
+
+  h1, h2{
+	  font-family: "Birds", script;
+	  font-size: 4.5em;
+	  font-weight: 100;
+	  text-align: center;
+  }
+
+
+/** 
+** Responsive
+**/
+
+  @media screen and (max-width: 1024px){
+	.home_title h1, h2{
+		font-size: 2.5em;
+	}
+  }
+  
+  @media screen and (max-width: 460px){
+	  .home_title h1, h2{
+		font-size: 1.5em;
+	}
+  }
