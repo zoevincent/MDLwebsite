@@ -25,9 +25,14 @@ main{
     margin: 0 auto;
 }
 
+.imgContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
 .instru img{
-    width:32%;
-    height:32%;
+    width:30%;
+    height:30%;
     filter: grayscale(1);
 }
 
@@ -53,12 +58,12 @@ main{
         width: 60%;
         margin: 0 auto;
     }
-  }
-
-  @media screen and (max-width: 500px){
     .instru_name{
         font-size: 0.8em;
     }
+  }
+
+  @media screen and (max-width: 500px){
     .instru{
         margin-top: 5%;
     }
