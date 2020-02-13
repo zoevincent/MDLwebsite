@@ -1,11 +1,11 @@
 html, body{
+    position: static;
     overflow: auto;
 }
 
 .bg{
     width: 100%;
     height: auto;
-    background-repeat: repeat;
 }
 
 main{
@@ -50,7 +50,7 @@ main{
         display: none;
     }
     .instru{
-        width: 70%;
+        width: 60%;
         margin: 0 auto;
     }
   }
