@@ -96,6 +96,7 @@ nav{
 }
 
 .subMenu {
+	z-index:10;
 	width: 100%;
 	padding: 0;
 	position: absolute;
@@ -183,5 +184,14 @@ footer{
 	  .menu li{
 		padding: 0.5em 1em;
 		font-size: 0.5em;
+	  }
+	  .subMenu{
+		  width: 150%;
+	  }
+	  .subMenu li{
+		font-size: 1em;
+	  }
+	  .flags{
+		  width: 10%;
 	  }
   }
