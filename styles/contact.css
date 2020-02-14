@@ -35,6 +35,12 @@
 /** 
 ** Responsive
 **/
+@media screen and (max-width: 1300px){
+    .main_img{
+        width:50%;
+    }
+  }
+
 
 @media screen and (max-width: 1024px){
     .socialnetworks{

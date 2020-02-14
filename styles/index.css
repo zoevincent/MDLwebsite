@@ -12,6 +12,10 @@ main{
 	align-items: center;
 }
 
+.main_img{
+	width:50%;
+}
+
 /* Title */
 
 .home_title{
